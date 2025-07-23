@@ -1,0 +1,60 @@
+# Pest Class Mapping & Deployment Info
+
+This folder contains:  
+
+✅ **Class mapping details** for the custom pest dataset  
+✅ **`detect.py`** to quickly test the trained YOLOv11 model  
+✅ **Example results** showing detections from the trained model and the mobile app  
+
+---
+
+## ✅ Class ID → Dataset Code → Pest Name
+
+| Class ID | Dataset Code | Pest Name            |
+|----------|-------------|----------------------|
+| 0        | IP014       | Grub                 |
+| 1        | IP015       | Mole Cricket         |
+| 2        | IP016       | Wireworm             |
+| 3        | IP022       | Corn Borer           |
+| 4        | IP024       | Aphids               |
+| 5        | IP040       | Beet Armyworm        |
+| 6        | IP046       | Flax Budworm         |
+| 7        | IP049       | Lytta Polita         |
+| 8        | IP051       | Legume Blister Beetle|
+| 9        | IP052       | Blister Beetle       |
+| 10       | IP071       | Miridae              |
+| 11       | IP087       | Prodenia Litura      |
+| 12       | IP102       | Cicadellidae         |
+
+---
+
+## ✅ About `detect.py`
+
+- `detect.py` is a simple Python script that allows **anyone to run inference** with the trained YOLOv11 model.  
+- It loads the **custom pest detection model** and performs inference on a sample image.  
+- The output image is saved in the **current folder** with annotated pest detections.
+
+---
+
+## ✅ Example Result Explanation
+
+- The **first sample image result** (from `detect.py`) shows a detection labeled **IP102**.  
+- **IP102** refers to the **pest number 102 in the IP102 dataset**, which corresponds to **Cicadellidae** according to the mapping table above.
+
+---
+
+## ✅ Mobile App Deployment
+
+- The **resultMobileAPP** shows the same image tested inside the **mobile application**.  
+- The mobile app runs the **same trained YOLOv11 model**, but **converted to TensorFlow Lite (.tflite)** for on-device inference.  
+- The detection result is **consistent with the Python inference**.
+
+---
+
+### ✅ Summary
+
+- **`detect.py`** → quick desktop inference  
+- **yolov11s `.pt` model** → used for Python inference  
+- **yolov11s_float32 `.tflite` model** → deployed inside the mobile app  
+- **IP codes** are directly mapped to their real pest names via the table above.
+

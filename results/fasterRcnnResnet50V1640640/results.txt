@@ -1,0 +1,4 @@
+mAP@0.5	0.936
+mAP@0.5:0.95	0.646
+Precision (Approx)	0.936
+Recall	0.740

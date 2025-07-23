@@ -1,0 +1,4 @@
+Precision:    ~71-75% (estimated from AR)
+Recall:       71.8%
+mAP@50:       88.6%
+mAP@50-95:    58.3%

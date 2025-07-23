@@ -1,0 +1,13 @@
+Class 'IP014' -> Train: 666, Val: 83, Test: 84
+Class 'IP015' -> Train: 694, Val: 86, Test: 88
+Class 'IP016' -> Train: 660, Val: 82, Test: 83
+Class 'IP022' -> Train: 657, Val: 82, Test: 83
+Class 'IP024' -> Train: 703, Val: 87, Test: 89
+Class 'IP040' -> Train: 649, Val: 81, Test: 82
+Class 'IP046' -> Train: 647, Val: 80, Test: 82
+Class 'IP049' -> Train: 666, Val: 83, Test: 84
+Class 'IP051' -> Train: 666, Val: 83, Test: 84
+Class 'IP052' -> Train: 696, Val: 87, Test: 87
+Class 'IP071' -> Train: 696, Val: 87, Test: 87
+Class 'IP087' -> Train: 649, Val: 81, Test: 82
+Class 'IP102' -> Train: 696, Val: 87, Test: 87

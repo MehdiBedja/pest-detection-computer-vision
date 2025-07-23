@@ -1,0 +1,3 @@
+dataset : 
+grub , wireworm , corn borer , beet armyworm , flax budworm,legume blister beetle,Prodenia litura , mole cricket , aphids ,  lytta polita ,  blister beetle , Miridae , Cicadellidae
+
