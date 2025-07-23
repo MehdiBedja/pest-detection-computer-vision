@@ -13,12 +13,12 @@ Trained multiple state-of-the-art models (YOLOv7 → YOLOv8 → YOLOv9 → YOLOv
 Hyperparameter tuning & architecture tweaking to optimize results
 
 Final model selection: YOLOv11 (best trade-off of accuracy vs. performance)
-<img src="deployment\testImageResult.png" width="400">
+<img src="deployment\testImageResult.jpg" width="400">
 
 TensorFlow Lite conversion for real-time on-device inference
 
 Deployed in a fully functional mobile app, with backend & frontend integration
-<img src="deployment\resultMobileAPP.png" width="400">
+<img src="deployment\resultMobileAPP.jpg" width="400">
 
 
 🔗 Mobile App Frontend Repository : https://github.com/MehdiBedja/pest_detection_app_frontend
