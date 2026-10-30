@@ -1,0 +1,16 @@
+# Inference (deployment/detect.py)
+ultralytics>=8.3
+
+# Preprocessing and augmentation scripts
+opencv-python
+numpy
+pandas
+pillow
+albumentations
+scikit-learn
+matplotlib
+pyyaml
+
+# TFRecord export / SSD and Faster R-CNN experiments (optional)
+# tensorflow
+# tf-models-official  # TensorFlow Object Detection API
