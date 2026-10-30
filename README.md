@@ -10,7 +10,7 @@
 This is the AI research half of an end-to-end system that helps farmers identify crop pests **offline**, straight from their phone. I benchmarked 8 object detection architectures on a curated subset of IP102 and picked **YOLOv11s (93.8% mAP@50, 9.4M params)** as the best accuracy/latency trade-off. It was then exported to TensorFlow Lite and runs in real time inside a native Android app.
 
 > Part of the [Mobile Agricultural Pest Detection System](https://github.com/MehdiBedja/pest-detection-system):
-> **AI research** · [Android app](https://github.com/MehdiBedja/pest_detection_app_frontend) · [Backend API](https://github.com/MehdiBedja/pest_detection_app_backend)
+> **AI research** · [Android app](https://github.com/MehdiBedja/pest-detection-android) · [Backend API](https://github.com/MehdiBedja/pest-detection-api)
 
 <p align="center">
   <img src="deployment/testImageResult.jpg" width="420" alt="YOLOv11s detection on a test image">
